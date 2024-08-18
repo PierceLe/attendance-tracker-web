@@ -1,0 +1,32 @@
+{
+  "name": "attendance-tracker-web",
+  "version": "1.0.0",
+  "description": "This is the web to check the attendance of student for tutorial class by using QR code. It is also a platform that students and tutor can chat together.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierceLe/attendance-tracker-web.git"
+  },
+  "keywords": [
+    "attendance=tracker-web"
+  ],
+  "author": "Pierce Le",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PierceLe/attendance-tracker-web/issues"
+  },
+  "homepage": "https://github.com/PierceLe/attendance-tracker-web#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "prisma": "^5.18.0"
+  }
+}
